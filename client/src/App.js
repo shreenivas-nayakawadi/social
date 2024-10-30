@@ -7,6 +7,7 @@ import { useSelector } from "react-redux";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import { themeSettings } from "./theme.js";
+import Navbar from "scenes/navbar/index.jsx";
 
 function App() {
   const mode = useSelector((state) => state.mode);
